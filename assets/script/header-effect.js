@@ -2,6 +2,10 @@ var header = document.getElementById('header')
 var btnAssinar = document.getElementById('btn-assinar')
 var img = document.getElementById('divImg')
 
+header.removeAttribute('style')
+btnAssinar.classList.add('hide')
+img.classList.add('hide')
+
 
 $(document).on('scroll', function() {
     console.clear();
