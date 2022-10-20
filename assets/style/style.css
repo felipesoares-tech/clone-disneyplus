@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Avenir, sans-serif;
+}
+
+body {
+    background-color: #040714;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    height: 50em;
+    z-index: 0;
+}
+
+header {
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header nav button {
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.829);
+    border: 1px solid rgba(255, 255, 255, 0.685);
+    height: 3em;
+    width: 6em;
+    border-radius: 7px;
+    margin-right: 2.5em;
+    margin-top: 0.7em;
+    font-size: large;
+    font-weight: 400px;
+}
+
+header nav button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.escolher-plano {
+    position: absolute;
+    left: 0;
+    margin-top: 10%;
+    padding: 4em;
+    margin-left: 8em;
+
+}
+
+.escolher-plano div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 35em;
+}
+
+.escolher-plano div p {
+    font-family: Avenir, sans-serif;
+    font-size: 1.5em;
+}
+
+.escolher-plano div button,
+.sec-2-items div button {
+    transition: 0.5s;
+    height: 4em;
+    background-color: #6421ff;
+    font-size: 1em;
+    border: 0;
+}
+
+.escolher-plano div button:hover,
+.sec-2-items div button:hover {
+    background-color: #6f35f7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.escolher-plano div div {
+    margin-bottom: 2em;
+}
+
+.escolher-plano div div p{
+    font-weight: bolder;
+}
+
+.escolher-plano div img {
+    height: 10em;
+}
+
+.logo-assinar {
+    display: flex;
+
+}
+
+.logo-assinar img {
+    height: 5em;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #040714;
+}
+
+.options {
+    display: flex;
+}
+
+.options button {
+    font-size: 1.2em;
+    background-color: transparent;
+    margin-right: 2em;
+    border: 0;
+}
+
+.options button:hover {
+    cursor: pointer;
+}
+
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 4em;
+    justify-content: center;
+
+}
+
+.container-items img {
+    border-radius: 4px;
+    height: 20em;
+}
+
+.options p {
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+.sec-2 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-2 h1 {
+    font-size: 2.5em;
+    margin-bottom: 0em;
+}
+
+.sec-2-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sec-2-items div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 3em;
+    padding: 5em;
+
+}
+
+.sec-2-items div img {
+    height: 3.5em;
+    margin-top: 5em;
+    margin-bottom: 2.5em;
+}
+
+.sec-2-items div button {
+    height: 3.5em;
+    width: 17em;
+    margin-top: 2em;
+}
+
+.sec-2 div p, .sec-3 div p, .txt-rei-leao p, .container-dispositivos p{
+    color: silver;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.sec-3 div h2{
+    margin-bottom: 0.4em;
+}
+
+.sec-2 div h2{
+    margin-bottom: 0.3em;
+}
+
+.letra-pequena {
+    color: silver;
+    font-size: 0.8em;
+}
+
+
+.item-center {
+    background-image: url('../img/back-purple.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23em;
+}
+
+.sec-3 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sec-3 div img {
+    height: 45em;
+}
+
+.sec-3 div h2 {
+    font-size: 2.5em;
+}
+
+.sec-3 div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+
+}
+
+.sec-4 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-4 img {
+    height: 60em;
+
+}
+
+.sec-4 div {
+    position: absolute;
+}
+
+.txt-rei-leao {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 3em;
+    margin-left: 45em;
+
+}
+
+.txt-rei-leao h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.txt-rei-leao h2, .txt-rei-leao p{
+    font-family: Avenir, serif;
+}
+
+.sec-5{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-dispositivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-dispositivos ul{
+    display: flex;
+}
+
+.container-dispositivos ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.container-dispositivos ul li p{
+    margin-bottom: 0.3em;
+}
+.container-dispositivos ul li h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-dispositivos div img{
+    height: 14em;
+}
+
+.sec-5-title h2{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.sec-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10em;
+}
+
+.expande span{
+    display: block;
+    height: 3.4em;
+    background-color: #13151d;
+    width: 75em;
+    padding: 1em;
+    font-size: 1.4em;
+    overflow: hidden;
+    position: relative;
+}
+
+.expande span:hover{
+    cursor: pointer;
+}
+
+.sec-6 h2{
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+.simbolo-sum{
+    display: flex;
+    right: 0;
+    font-size: 2em;
+}
+
+.expande span ul{
+    display: block;
+    padding: 1em;
+    line-height: 1.8em;
+    font-size: 0.8em;
+    margin-top: 1px;
+}
+
+.expande span ul, .expande span ul li{
+    color: silver;
+}
+
+.expande span h4{
+    display: inline;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.expande span div{
+    display: inline;
+    position: absolute;
+    right: 0;
+    font-size: 1.7em;
+    margin-right: 1em;
+    margin-top: -0.2em;
+    
+}
+
+.expande input[type="checkbox"] {
+    appearance: none;
+}
+
+.expande input[type="checkbox"]:checked ~ span {
+    height: auto; 
+}
+
+footer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer img{
+    height: 50px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    font-size: 0.75em;
+    line-height: 3.5em;
+}
+
+.container-footer p, .container-footer select{
+    margin-right: 2em;
+    color: silver;
+}
+
+.container-footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer select{
+    background-color: transparent;
+    border: 0;
+}
+
+.container-footer select option{
+    color: #000;
+    text-align: center;
+}
+
+.container-footer select:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.lines p:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+#bt-1,#bt-2,#bt-3{
+    border-bottom: 5px solid transparent;
+    padding-bottom: 5px;
+}
