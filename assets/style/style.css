@@ -239,9 +239,16 @@ main {
     margin-top: 2em;
 }
 
-.sec-2 div p, .sec-3 div p, .txt-rei-leao p, .container-dispositivos p{
+.sec-2 div p, .sec-3 div p, .container-dispositivos p{
     color: silver;
     letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.txt-rei-leao p{
+    color: silver;
+    font-weight: lighter;
+    letter-spacing: 1px;
     line-height: 24px;
 }
 
@@ -316,11 +323,7 @@ main {
 
 .txt-rei-leao h2{
     margin-bottom: 1em;
-    font-size: 2em;
-}
-
-.txt-rei-leao h2, .txt-rei-leao p{
-    font-family: Avenir, serif;
+    font-size: 1.6em;
 }
 
 .sec-5{
@@ -372,7 +375,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10em;
+    padding: 4em;
 }
 
 .expande span{
