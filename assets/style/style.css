@@ -27,26 +27,69 @@ body {
 
 header {
     position: sticky;
-    top: 10px;
+    top: 0.1px;
     z-index: 1;
+    display: flex;
+    background-color: transparent;
+    flex-direction: row-reverse;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+header img{
+    height: 3em;
+}
+
+header div{
+  opacity: 1;
+  transition: opacity .5s linear;
+  position: absolute;
+  left: 0;
+  margin-left: 2.5em;
+}
+
+header div.hide, .bt-assinar.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+header nav{
     display: flex;
     flex-direction: row-reverse;
 }
+.bt-entrar, .bt-assinar{
+    margin-right: 0.7em;
+    margin-top: 0.7em;
+    font-size: large;
+    font-weight: 400px;
+}
 
-header nav button {
+.bt-assinar{
+    opacity: 1;
+    transition: opacity .5s linear;
+    background-color: #0063e5; 
+    border: 0; height: 3em; 
+    width: 10em; 
+    border-radius: 3px;
+}
+
+.bt-assinar:hover{
+    background-color: #045bce;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bt-entrar {
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.829);
     border: 1px solid rgba(255, 255, 255, 0.685);
     height: 3em;
     width: 6em;
     border-radius: 7px;
-    margin-right: 2.5em;
-    margin-top: 0.7em;
-    font-size: large;
-    font-weight: 400px;
+    margin-right: 2em;
 }
 
-header nav button:hover {
+.bt-entrar:hover {
     background-color: #fff;
     color: #000;
     cursor: pointer;

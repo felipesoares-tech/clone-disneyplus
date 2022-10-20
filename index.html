@@ -12,10 +12,14 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
-            <button>ENTRAR</button>
+            <button class="bt-entrar">ENTRAR</button>
+            <button id="btn-assinar" class="bt-assinar">ASSINE AGORA</button>
         </nav>
+        <div id="divImg">
+            <img src="assets/img/original.svg" alt="">
+        </div>
     </header>
     <section class="sec-1">
         <div class="container">
@@ -31,7 +35,7 @@
                         <img src="assets/img/original.svg" alt="">
                     </div>
                     <div>
-                        <button>ESCOLHA O SEU PLANO</button>
+                        <button id="point">ESCOLHA O SEU PLANO</button>
                     </div>
                 </div>
             </div>
@@ -54,7 +58,7 @@
             </div>
         
     </main>
-    <section class="sec-2">
+    <section class="sec-2" id="section2">
         <h1>Escolha seu plano</h1>
         <div class="sec-2-items">
             <div>
@@ -79,7 +83,7 @@
         <p class="letra-pequena">*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
     </section>
 
-    <section class="sec-3">
+    <section class="sec-3" id="section3">
         <div>
             <img src="assets/img/homem-de-ferro.png" alt="">
         </div>
@@ -236,6 +240,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="assets/script/grid-imgs.js"></script>
     <script src="assets/script/common-asks.js"></script>
+    <script src="assets/script/header-effect.js"></script>
 </html>
