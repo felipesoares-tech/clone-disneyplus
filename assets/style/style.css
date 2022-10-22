@@ -8,6 +8,7 @@
 
 body {
     background-color: #040714;
+    overflow-x: hidden;
 }
 
 .sec-1 {
@@ -414,6 +415,10 @@ main {
 
 .expande span ul, .expande span ul li{
     color: silver;
+}
+
+.expande span ul{
+    display: none;
 }
 
 .expande span h4{
